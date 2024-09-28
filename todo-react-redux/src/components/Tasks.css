@@ -1,0 +1,6 @@
+.tasks{
+    display: flex;
+    flex-direction: row;
+    gap: 4;
+    flex-wrap: wrap;
+}

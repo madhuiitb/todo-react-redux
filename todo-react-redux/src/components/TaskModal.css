@@ -1,0 +1,37 @@
+.task-modal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 300px;
+    width: 500px;
+    border: 2px solid #061256;
+    border-radius: 8px;
+    z-index: 1000;
+    background: #8a99ee;
+    position: fixed;
+    align-self: center;
+}
+
+.modal-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    background-color: #0b22a5;
+    width: 100%;
+    color: white;
+     box-shadow: 0px 4px 8px 0px #060e58;
+    >span{
+        padding: 15px;
+        font-weight: 800;
+    }
+}
+.modal-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap:8px;
+    width: 100%;
+}
