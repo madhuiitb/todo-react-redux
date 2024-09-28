@@ -85,9 +85,9 @@ const handleModal = () => {
   };
 
   return (
-    <div>
+    <div className="app-container">
       <h1>Todo App</h1>
-      <div className="">
+      <div className="task-container">
         <CreateTask
           formData={formData}
           setFormData={setFormData}

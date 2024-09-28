@@ -10,8 +10,8 @@ const CreateTask = ({
   isOpen,
 }) => {
   return (
-    <div>
-      <button onClick={handleModal}>Create Task</button>
+    <div className="create-task">
+      <button  onClick={handleModal}>Create Task</button>
       <TaskModal
         isOpen={isOpen}
         handleClose={handleModal}

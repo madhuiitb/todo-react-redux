@@ -20,7 +20,7 @@ const TaskTile = ({ task, onEdit, onDelete }) => {
               <MdDelete size={20} onClick={()=>onDelete(task.id)} />
             </span>
           </div>
-          <span>{task.description}</span>
+          <span className="task-description">{task.description}</span>
         </div>
       </div>
     );

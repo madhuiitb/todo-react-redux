@@ -11,6 +11,7 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #213547;
 }
 
 a {
@@ -28,7 +29,9 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-color: #242424;
+  background-color: #eee8e8;
+  align-self: center;
+  justify-content: center;
 }
 
 h1 {
@@ -66,4 +69,32 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+.app-container{
+  align-self: center;
+  min-width: 400px;
+  min-height: 500px;
+  border: 2px solid #027621;
+  border-radius: 8px;
+  padding: 16px;
+  >h1{
+    text-align: center;
+     background: repeating-linear-gradient(45deg,#433878, #7E60BF, #d690e6,#b644b6,#7E60BF );
+    border: 2px solid #e1e7e2;
+    border-radius: 8px;
+    color: white;
+    padding: 10px;
+  }
+}
+.task-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f5;
+  background: linear-gradient(45deg, #1a1a1a, #027621, #213547, #433878, #535bf2, #b644b6);
+  padding: 16px;
+  border: 2px solid #e1e7e2;
+  border-radius: 8px;
 }

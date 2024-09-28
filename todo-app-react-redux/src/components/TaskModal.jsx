@@ -41,6 +41,7 @@ const TaskModal = ({ isOpen, handleClose, handleForm, formData, setFormData }) =
       <div>
         <form className="modal-content">
           <input
+            className="form-fields"
             type="text"
             placeholder="Enter task title"
             name="title"
@@ -48,6 +49,7 @@ const TaskModal = ({ isOpen, handleClose, handleForm, formData, setFormData }) =
             onChange={handleInputChange}
           />
           <textarea
+            className="form-fields"
             type="text"
             placeholder="Enter description for task"
             name="description"
